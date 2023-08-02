@@ -21,9 +21,7 @@ function parseMergeRequestsOnPage () {
 function getSettingsAndStart () {
   // Begin parsing and injecting views
   if (window.location.href.indexOf('merge_requests') !== -1) {
-    if (window.location.href.indexOf('groups') !== -1) {
-      parseMergeRequestsOnPage()
-    }
+    parseMergeRequestsOnPage()
   }
 }
 
